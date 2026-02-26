@@ -1,8 +1,9 @@
-import {} from "react";
-export default function App () {
+import React from "react";
+import { Nav } from "./Nav";
+export default function App() {
   return (
     <>
-      <div>App</div>
+      <Nav />
     </>
   );
 }
