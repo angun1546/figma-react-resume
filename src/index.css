@@ -1,22 +1,80 @@
 /* nav */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* 오토레이아웃 */
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-start;
-    padding: 32px 48px;
-    gap: 0px 24px;
+  height: 99px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 48px;
+  border-bottom: solid 1px #d9d9d9;
+  background-color: #fff;
+}
 
-    width: 1200px;
-    height: 99px;
+.Hero {
+  height: 524px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 160px 24px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
-    background: #FFFFFF;
-    border-bottom: 1px solid #D9D9D9;
+.aboutme {
+  width: 949px;
+  height: 458px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+footer {
+  height: 324px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 32px 160px;
+  border-top: solid 1px #d9d9d9;
+  background-color: #fff;
+}
+
+Contact {
+  width: 320px;
+  height: 504px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 8px;
+  border: solid 1px #d9d9d9;
+  background-color: #fff;
+}
+
+.logo {
+  width: 30.1px;
+  height: 36.2px;
+  flex-grow: 0;
 }
